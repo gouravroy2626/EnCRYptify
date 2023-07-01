@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EnCRYptify - Encryption Decryption</title>
+  <link rel="stylesheet" type="text/css" href="styls.css">
+</head>
+<body>
+  <div class="background-wrapper">
+    <video id="background-video" autoplay loop muted>
+      <source src="c:\Users\ABC\Downloads\vecteezy_binary-code-matrix-background-with-numbers-moving-downward-on-screen-digital-data-stream-effect-animation_2015336.mov" type="video/mp4">
+    </video>
+
+    <header>
+      <div class="wrap">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+      </div>
+
+      <div>
+        <h1>EnCRYptify!</h1>
+      </div>
+    </header>
+
+    <section class="encryption-section">
+      <h2>Encryption Decryption Tool</h2>
+
+      <div class="text-section">
+        <div class="encryption">
+          <label for="encryption-text">Encryption:</label>
+          <textarea id="encryption-text" placeholder="Enter text to encrypt"></textarea>
+        </div>
+        <div class="decryption">
+          <label for="decryption-text">Decryption:</label>
+          <textarea id="decryption-text" placeholder="Enter text to decrypt"></textarea>
+        </div>
+      </div>
+
+      <button id="encrypt-button">Encrypt</button>
+      <button id="decrypt-button">Decrypt</button>
+
+      <div class="result">
+        <div id="encryption-result">
+          <label for="encryption-result-text">Encrypted Text:</label>
+          <textarea id="encryption-result-text" readonly></textarea>
+        </div>
+        <div id="decryption-result">
+          <label for="decryption-result-text">Decrypted Text:</label>
+          <textarea id="decryption-result-text" readonly></textarea>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <p>Created by &copy; Saar</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
